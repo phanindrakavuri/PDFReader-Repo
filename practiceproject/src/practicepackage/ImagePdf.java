@@ -14,7 +14,6 @@ public class ImagePdf {
 	  File f=new File("testpdf.pdf");
 	  FileOutputStream fo=new FileOutputStream(f);
 	  Document doc=new Document();
-	  
 	  String fname= "D:\\PDF Jars\\home_nav.png";
 	  Image img=Image.getInstance(fname);
 	  doc.add(img);
